@@ -25,30 +25,32 @@ understanding how data flows from the controller to the database.
 -   Razor Views
 
 ------------------------------------------------------------------------
-
 ## 📂 Project Structure
 
+```
 FinanceApp
 │
 ├── Controllers
-│ └── ExpensesController.cs
+│   └── ExpensesController.cs
 │
 ├── Models
-│ └── Expense.cs
+│   └── Expense.cs
 │
 ├── Data
-│ ├── FinanceAppContext.cs
-│ └── Service
-│ ├── iExpensesService.cs
-│ └── ExpensesService.cs
+│   ├── FinanceAppContext.cs
+│   └── Service
+│       ├── iExpensesService.cs
+│       └── ExpensesService.cs
 │
 ├── Views
-│ └── Expenses
-│ ├── Index.cshtml
-│ └── Create.cshtml
+│   └── Expenses
+│       ├── Index.cshtml
+│       └── Create.cshtml
 │
 ├── appsettings.json
 └── Program.cs
+```
+
 
 ------------------------------------------------------------------------
 
